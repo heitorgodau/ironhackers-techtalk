@@ -16,36 +16,45 @@ html {
 .section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 1rem;
   margin: 2.5rem 0;
 }
 
-.div {
-  width: fit-content;
+.card {
+  width: 30%;
+  min-width: 200px;
+  max-width: 250px;
+  min-height: 150px;
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: .7rem;
 }
 
-.div__title {
-  color: blue;
-  font-size: 1.5rem;
-  margin-bottom: 0.8rem;
-  padding-left: 1.5rem;
+.card--warning {
+  background-color: red;
 }
 
-.div__list,
-.section__list {
-  list-style-type: none;
-  width: 100%;
+.card__title,
+.card__talker {
+  margin-bottom: 1rem;
 }
 
-.div__list li {
-  margin-bottom: .5rem;
-  padding: .5rem 1.5rem;
+.card__title {
+  border-bottom: 2px solid #fff;
 }
 
-.div__list li:nth-child(odd) {
-  background-color: lightgray;
+.card__subject {
+  text-align: center;
 }
+
 
 .section--secondary {
   background-color: rgba(34, 139, 34, 0.5);
@@ -57,6 +66,7 @@ html {
 .section__title {
   margin-bottom: 1.2rem;
   color: #222;
+  text-align: center;
 }
 
 .section__title--highlighted {
@@ -64,7 +74,9 @@ html {
   border-bottom: 2px solid #222;
 }
 
-.section__list{
+.section__list {
+  list-style-type: none;
+  width: 100%;
   text-align: center;
 }
 
