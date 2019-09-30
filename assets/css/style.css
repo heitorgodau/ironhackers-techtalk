@@ -42,6 +42,10 @@ html {
   background-color: red;
 }
 
+.card--opacity {
+  opacity: .3;
+}
+
 .card__title,
 .card__talker {
   margin-bottom: 1rem;
