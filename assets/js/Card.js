@@ -3,8 +3,8 @@ class Card {
     this._date = date;
     this._talker = talker;
     this._subject = subject;
-    this.warning = false;
-    this.opacity = false;
+    this._warning = false;
+    this._opacity = false;
   }
 
   get date() {
@@ -17,6 +17,22 @@ class Card {
 
   get subject() {
     return this._subject;
+  }
+
+  get warning() {
+    return this._warning;
+  }
+
+  get opacity() {
+    return this._opacity;
+  }
+
+  changeWarning() {
+    this._warning = !this._warning;
+  }
+
+  changeOpacity() {
+    this._opacity = !this._opacity;
   }
 
   cardConstructor(elementSelector) {
@@ -39,17 +55,8 @@ class Card {
         <h4 class="card__talker">${this.talker}</h4>
         <p class="card__subject">${this.subject}</p>
       </div>`;
-
     }
     const element = document.querySelector(elementSelector);
     element.innerHTML += card;
-  }
-
-  changeWarning() {
-    this.warning = !this.warning;
-  }
-
-  changeOpacity() {
-    this.opacity = !this.opacity;
   }
 }
