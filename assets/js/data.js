@@ -1,11 +1,11 @@
 const cards = [
   new Card('01/10 (Ter)', 'Filipe Gonçalves', 'Planejamento e Gestão de Projetos'),
   new Card('03/10 (Qui)', 'Marco Modena', 'Hacktoberfest'),
-  new Card('08/10 (Qua)', 'Lucas', 'Mundo digital, números binários, lógica, booleana, computadores, pq bug?'),
+  new Card('07/10 (Seg)', 'Felipe Padua', 'Javascript com abordagem funcional'),
+  new Card('09/10 (Qua)', 'Lucas', 'Mundo digital, números binários, lógica, booleana, computadores, pq bug?'),
   new Card('14/10 (Seg)', 'Adamy', 'SASS'),
   new Card('15/10 (Ter)', 'Saulo', 'Algoritmos de date aplicado com JavaScript e outras linguagem'),
   new Card('17/10 (Qui)', 'Lucas', 'Passport without session using JWT'),
-  new Card('21/10 (Seg)', 'Felipe Padua', 'Javascript com abordagem funcional'),
 ];
 
 const otherSubjects = [
