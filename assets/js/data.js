@@ -3,6 +3,7 @@ const cards = [
   new Card('03/10 (Qui)', 'Marco Modena', 'Hacktoberfest'),
   new Card('08/10 (Ter)', 'Isabella Paiva', 'Mas então, o que é UX/UI?'),
   new Card('09/10 (Qua)', 'Lucas', 'Mundo digital, números binários, lógica, booleana, computadores, pq bug?'),
+  new Card('08/10 (Seg)', 'Ronaldo Zanardo (Convidado)', 'Agil'),
   new Card('15/10 (Ter)', 'Saulo', 'Algoritmos de date aplicado com JavaScript e outras linguagem'),
   new Card('16/10 (Qua)', 'Adamy', 'SASS'),
   new Card('17/10 (Qui)', 'Lucas', 'Passport without session using JWT'),
