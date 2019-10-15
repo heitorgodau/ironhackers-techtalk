@@ -6,8 +6,8 @@ const cards = [
   new Card('14/10 (Seg)', 'Heitor Godau', 'Responsividade e alinhamento (Float, Bootstrap, FlexBox)'),
   new Card('15/10 (Ter)', 'Saulo', 'Algoritmos de date aplicado com JavaScript e outras linguagem'),
   new Card('16/10 (Qua)', 'Adamy', 'SASS'),
-  new Card('17/10 (Qui)', 'Lucas', 'Passport without session using JWT'),
   new Card('21/10 (Seg)', 'Felipe Padua', 'Javascript com abordagem funcional'),
+  new Card('22/10 (Ter)', 'Lucas', 'Passport without session using JWT'),
 ];
 
 const otherSubjects = [
