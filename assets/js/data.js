@@ -6,8 +6,9 @@ const cards = [
   new Card('14/10 (Seg)', 'Heitor Godau', 'Responsividade e alinhamento (Float, Bootstrap, FlexBox)'),
   new Card('15/10 (Ter)', 'Saulo', 'Algoritmos de date aplicado com JavaScript e outras linguagem'),
   new Card('16/10 (Qua)', 'Adamy', 'SASS'),
-  new Card('21/10 (Seg)', 'Felipe Padua', 'Javascript com abordagem funcional'),
-  new Card('22/10 (Ter)', 'Lucas', 'Passport without session using JWT'),
+  new Card('21/10 (Seg)', 'Lucas', 'Debbug'),
+  new Card('23/10 (Qua)', 'Felipe Padua', 'Javascript com abordagem funcional'),
+  new Card('24/10 (Qui)', 'Lucas', 'Passport without session using JWT'),
 ];
 
 const otherSubjects = [
@@ -19,11 +20,9 @@ const otherSubjects = [
   'Como fazer aplicativos para celular',
   'Blockchain',
   'Clousures',
-  'Dicas para debugar',
   'Regex',
   'handlebars',
   'Redis',
-  'kanban',
   'o que são microserviços?',
   'O que são dockers?',
   'IOT no futuro',
